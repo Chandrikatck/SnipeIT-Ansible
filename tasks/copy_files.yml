@@ -11,9 +11,3 @@
    copy:
       src: snipeit.conf
       dest: /etc/apache2/sites-available/snipeit.conf
--  name: Copy my.cnf.j2 to remote machine
-   copy:
-      src: files/my.cnf.j2
-      dest: /root/.my.cnf
-   become: yes
-
